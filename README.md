@@ -1,7 +1,7 @@
 # Code snippet for image slider with vanilla JS
 This is a code snippet for an image slider which can be activated manually by the user but will also automaticaly change images, bouncing between the first one to the last one and then begining from the first one again.
 
-(Live preview)[https://viniciusliimaa.github.io/Image-Slider-Code-Snippet/]
+[Live preview](https://viniciusliimaa.github.io/Image-Slider-Code-Snippet/)
 
 ## Changes to be made in case of use
 1. Images must be added inside the element with the `image-slider` class, wheter it's through hard coding or injecting the code with JS. The number of images added will not influence the code, so it won't break after a certain amount of images. Just be sure to add it into the right parent. If the add image is not to be showed first, you must add `style="display: none;`.
