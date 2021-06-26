@@ -136,6 +136,6 @@ const myListeners =  (function() {
   myListeners.btnListener();
   setInterval(()=>{
     timeoutFunc.timeOutSetting()
-  }, 10000)
+  }, 3000)
   
 })();
