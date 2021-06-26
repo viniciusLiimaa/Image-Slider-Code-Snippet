@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>Image slider</title>
+</head>
+<body>
+  <main class="container">
+    <img src="./icons/arrow_back.svg" alt="Return to previous image" id="arrow-back">
+    <div class="image-slider">
+      <img src="./images/nature_one.jpg" alt="First nature image" class="slider-image">
+      <img src="./images/nature_two.jpg" alt="Second nature image" class="slider-image" style="display: none;">
+      <img src="./images/nature_three.jpeg" alt="Third nature image" class="slider-image" style="display: none;">
+      <img src="./images/nature_four.jpeg" alt="Fourth nature image" class="slider-image" style="display: none;">
+      <img src="./images/nature_five.jpeg" alt="Fifth nature image" class="slider-image" style="display: none;">
+    </div>
+    <img src="./icons/arrow_forward.svg" alt="Advance to next image" id="arrow-next">
+    <footer>
+      <div data-key="1" class="slider-op"></div>
+      <div data-key="2" class="slider-op"></div>
+      <div data-key="2" class="slider-op"></div>
+      <div data-key="2" class="slider-op"></div>
+      <div data-key="2" class="slider-op"></div>
+    </footer>
+  </main>
+</body>
+</html>

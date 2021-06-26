@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+
+
+main {
+  width: 700px;
+  height: 300px;
+  display: grid;
+  margin: 0 auto;
+  gap: 15px;
+  grid-template-columns: 50px 500px 50px;
+  grid-template-rows: 300px 50px;
+  grid-template-areas: 
+  "ab img an"
+  "ft ft ft";
+  
+  #arrow-back {
+    grid-area: ab;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .image-slider {
+    grid-area: img;
+    
+    
+    .slider-image {
+      width: 500px;
+      height: 300px;
+      animation: fade-in 1s;
+    
+    
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }  
+
+  #arrow-next {
+    grid-area: an;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  footer {
+    grid-area: ft;
+    width: 600px;
+    height: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    .slider-op {
+      height: 15px;
+      width: 15px;
+      background: black;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+        background: white;
+        border: 1px solid black;
+      }
+    }
+  }
+}
+
+ 
+
+
+
