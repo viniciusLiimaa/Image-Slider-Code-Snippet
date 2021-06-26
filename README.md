@@ -25,7 +25,7 @@ Encapsulates the listeners used by the user to interect with the page.
 Contains the execution of the code.
 
 ## Folder strucutre
-
+```
 ├── icons
 │   ├── arrow_back.svg
 │   └── arrow_forward.svg
@@ -41,6 +41,7 @@ Contains the execution of the code.
 ├── styles.css
 ├── styles.css.map
 └── styles.scss
+```
 
 ## Disclaimer
 Sass was used but the same end result can be achieved with just plain CSS.
